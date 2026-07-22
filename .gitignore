@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated MIDI output (these are outputs, not source — remove this line
+# if you actually want to version-control your exported progressions)
+*.mid
+
+# Editor/OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
